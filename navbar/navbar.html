@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creating Navbar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #2c003e, #00203f);
+      font-family: 'Inter', sans-serif;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(90deg, #7f00ff, #00c6ff);
+      border-radius: 20px;
+      padding: 0.75rem 2rem;
+      margin: 1rem;
+    }
+
+    nav img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    ul.nav-links {
+      display: flex;
+      list-style: none;
+      gap: 3rem;
+    }
+
+    ul.nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    ul.nav-links a:hover {
+      color: #f3f3f3;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .buttons button {
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .buttons button:hover {
+      box-shadow: 1px 1px rgb(25, 35, 130);
+      background: linear-gradient(blue, purple);
+      color: white;
+    }
+/* 
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      ul.nav-links {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .buttons button {
+        width: 100%;
+      }
+    } */
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">
+        <img src="logo.jpeg" alt="logo" />
+        <span>Karan</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <div class="buttons">
+        <button>Sign Up</button>
+        <button>Sign In</button>
+      </div>
+    </nav>
+  </header>
+  
+</body>
+</html>
