@@ -19,7 +19,13 @@ A horizontal navigation bar using HTML and CSS.
 📄 Files: `index.html`, `style.css`, `logo.jpeg`
 
 ---
+### 3. Layout (Laptop view only)
+A website basic layout using HTML and CSS.
 
+📁 Folder: `layout/`  
+📄 Files: `index.html`, `style.css`
+
+---
 ## 🚀 Learning Goals
 - Practice HTML structure
 - Learn CSS styling and layout (for desktop)
